@@ -211,7 +211,7 @@ keamanan, jangan buka issue publik — lihat [SECURITY.md](SECURITY.md).
 | Kontributor | Peran | Kontribusi |
 |-------------|-------|------------|
 | [@perogeremmer](https://github.com/perogeremmer) | Maintainer · backend & API | Inisialisasi proyek, refactor server-rendered MVC, karya multi-part ([#7](https://github.com/ccit-venture/cosign/pull/7)) |
-| [@afaizulh](https://github.com/afaizulh) | Keamanan, performa & fitur karya | [#8](https://github.com/ccit-venture/cosign/pull/8) tutup timing attack login, migrasi media aman, validasi kategori, N+1, rate limit · [#10](https://github.com/ccit-venture/cosign/pull/10) edit karya + pencarian & sort · [#11](https://github.com/ccit-venture/cosign/pull/11) state like per user + export komposisi PNG |
+| [@afaizulh](https://github.com/afaizulh) | Keamanan, performa & fitur karya | [#8](https://github.com/ccit-venture/cosign/pull/8) tutup timing attack login, migrasi media aman, validasi kategori, N+1, rate limit · [#10](https://github.com/ccit-venture/cosign/pull/10) edit karya + pencarian & sort · [#11](https://github.com/ccit-venture/cosign/pull/11) state like per user + export komposisi PNG · [#12](https://github.com/ccit-venture/cosign/pull/12) tipe karya 2D/3D + upload asset 3D · [#13](https://github.com/ccit-venture/cosign/pull/13) edit profil (bio & avatar) + komentar karya |
 | [@nabilalefqi-hash](https://github.com/nabilalefqi-hash) | Hardening & type safety | [#9](https://github.com/ccit-venture/cosign/pull/9) session TTL, body limit upload, validasi username, cache Eta, `bun run typecheck` + CI |
 
 **Institusi:** CEP CCIT-FTUI
