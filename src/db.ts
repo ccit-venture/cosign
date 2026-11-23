@@ -108,6 +108,16 @@ export function migrate(db: Database) {
 
     CREATE INDEX IF NOT EXISTS idx_moderation_log_created ON moderation_log(created_at DESC);
 
+    CREATE TABLE IF NOT EXISTS follows (
+      follower_id TEXT NOT NULL,
+      followee_id TEXT NOT NULL,
+      created_at TEXT DEFAULT (datetime('now')),
+      PRIMARY KEY (follower_id, followee_id),
+      CHECK (follower_id <> followee_id)
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_follows_followee ON follows(followee_id);
+
     CREATE TABLE IF NOT EXISTS karya_assets (
       id TEXT PRIMARY KEY,
       karya_id TEXT NOT NULL,
